@@ -50,9 +50,9 @@ int	press_key(int key, t_data *data)
 		data->key_left = 1;
 	if (key == KEY_RIGHT)
 		data->key_right = 1;
-	if (key == SPACE && data->space == 0)
+	if (key == 49 && data->space == 0)
 		data->space = 1;
-	else if (key == SPACE && data->space == 1)
+	else if (key == 49 && data->space == 1)
 		data->space = 0;
 	return (0);
 }
@@ -61,13 +61,13 @@ void	sides(t_data *data)
 {
 	if (data->key_left == 1 || data->mouse_left == 1)
 	{
-		data->direction -= ROTATION_ANGLE;
+		data->direction -= 0.05;
 		if (data->direction < 0)
 			data->direction = 2 * M_PI + data->direction;
 	}
 	else if (data->key_right == 1 || data->mouse_right == 1)
 	{
-		data->direction += ROTATION_ANGLE;
+		data->direction += 0.05;
 		if (data->direction > 2 * M_PI)
 			data->direction = data->direction - 2 * M_PI;
 	}

@@ -21,8 +21,8 @@
 # include <unistd.h>
 # define TILE 64
 # define MINI_TILE 20
-# define WIDTH_WIN 1200
-# define HEIGHT_WIN 1200
+# define WIDTH_WIN 1350
+# define HEIGHT_WIN 900
 # if defined(__linux__)
 #  define KEY_ESC 65307
 #  define KEY_UP 5

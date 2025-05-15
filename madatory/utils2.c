@@ -95,13 +95,13 @@ void	sides(t_data *data)
 {
 	if (data->key_left == 1 || data->mouse_left == 1)
 	{
-		data->direction -= ROTATION_ANGLE;
+		data->direction -= 0.05;
 		if (data->direction < 0)
 			data->direction = 2 * M_PI + data->direction;
 	}
 	else if (data->key_right == 1 || data->mouse_right == 1)
 	{
-		data->direction += ROTATION_ANGLE;
+		data->direction += 0.05;
 		if (data->direction > 2 * M_PI)
 			data->direction = data->direction - 2 * M_PI;
 	}

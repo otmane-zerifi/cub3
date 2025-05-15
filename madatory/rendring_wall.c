@@ -101,21 +101,21 @@ int	move_player(t_data *data)
 	data->old_y = data->pos_y;
 	if (data->key_a == 1)
 	{
-		data->pos_x -= cos(data->direction + M_PI_2) * SIDES_SPEED;
-		data->pos_y -= sin(data->direction + M_PI_2) * SIDES_SPEED;
+		data->pos_x -= cos(data->direction + M_PI_2) * 10;
+		data->pos_y -= sin(data->direction + M_PI_2) * 10;
 	}
 	if (data->key_d == 1)
 	{
-		data->pos_x += cos(data->direction + M_PI_2) * SIDES_SPEED;
-		data->pos_y += sin(data->direction + M_PI_2) * SIDES_SPEED;
+		data->pos_x += cos(data->direction + M_PI_2) * 10;
+		data->pos_y += sin(data->direction + M_PI_2) * 10;
 	}
 	else if (data->key_w == 1 || data->key_s == 1)
 	{
 		direction = data->direction;
 		if (data->key_s == 1)
 			direction = data->direction + M_PI;
-		data->pos_y += sin(direction) * SPEED;
-		data->pos_x += cos(direction) * SPEED;
+		data->pos_y += sin(direction) * 8;
+		data->pos_x += cos(direction) * 8;
 	}
 	sides(data);
 	draw_3d(data);

@@ -50,9 +50,9 @@ int	press_key(int key, t_data *data)
 		data->key_left = 1;
 	if (key == KEY_RIGHT)
 		data->key_right = 1;
-	if (key == 49 && data->space == 0)
+	if (key == 32 && data->space == 0)
 		data->space = 1;
-	else if (key == 49 && data->space == 1)
+	else if (key == 32 && data->space == 1)
 		data->space = 0;
 	return (0);
 }

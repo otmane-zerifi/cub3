@@ -70,8 +70,8 @@ void	draw_3d(t_data *data)
 	line_door(data);
 	floor_sky(data);
 	wall(data);
-	mlx_put_image_to_window(data->mlx_ptr, data->mlx_win, data->img, 0, 0);
 	renderminimap(data);
+	mlx_put_image_to_window(data->mlx_ptr, data->mlx_win, data->img, 0, 0);
 }
 
 int	move_player(t_data *data)

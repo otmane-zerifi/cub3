@@ -10,16 +10,16 @@ MLX_FLAGS = $(MLX_LIB) -lmlx -lXext -lX11 -lm
 
 # Project files
 FILES = \
-	madatory/raycasting.c madatory/file_bonus.c madatory/cub3d.c madatory/leaks.c \
-	madatory/parsing.c madatory/texters.c madatory/more_files.c madatory/file.c \
-	madatory/ohhhh.c madatory/utils1.c madatory/utils2.c madatory/utils3.c madatory/utils4.c \
-	madatory/rendring_wall.c madatory/extra_checks.c madatory/normenet_bonus.c \
-	madatory/ihate_norm_bonus.c madatory/more.c madatory/abcd.c \
-	madatory/get_line/get_next_line.c \
-	madatory/libft/ft_bzero.c madatory/libft/ft_strjoin.c madatory/libft/ft_atoi.c \
-	madatory/libft/ft_strlen.c madatory/libft/ft_calloc.c madatory/libft/ft_split.c \
-	madatory/libft/ft_strdup.c madatory/libft/ft_strnstr.c madatory/libft/ft_strchr.c \
-	madatory/libft/ft_itoa.c madatory/libft/ft_substr.c
+	mandatory/raycasting.c mandatory/file_bonus.c mandatory/cub3d.c mandatory/leaks.c \
+	mandatory/parsing.c mandatory/texters.c mandatory/more_files.c mandatory/file.c \
+	mandatory/ohhhh.c mandatory/utils1.c mandatory/utils2.c mandatory/utils3.c mandatory/utils4.c \
+	mandatory/rendring_wall.c mandatory/extra_checks.c mandatory/normenet_bonus.c \
+	mandatory/ihate_norm_bonus.c mandatory/more.c mandatory/abcd.c \
+	mandatory/get_line/get_next_line.c \
+	mandatory/libft/ft_bzero.c mandatory/libft/ft_strjoin.c mandatory/libft/ft_atoi.c \
+	mandatory/libft/ft_strlen.c mandatory/libft/ft_calloc.c mandatory/libft/ft_split.c \
+	mandatory/libft/ft_strdup.c mandatory/libft/ft_strnstr.c mandatory/libft/ft_strchr.c \
+	mandatory/libft/ft_itoa.c mandatory/libft/ft_substr.c
 
 FILES_BONUS = \
 	cub3d_bonus/raycasting_bonus.c cub3d_bonus/file_bonus.c cub3d_bonus/cub3d_bonus.c \

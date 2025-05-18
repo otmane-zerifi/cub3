@@ -48,7 +48,7 @@ make
 
 2. Clone the cub3D Repository
 ```
-git clone https://github.com/yourusername/cub3D.git
+git clone https://github.com/otmane-zerifi/cub3D.git
 cd cub3D
 ```
 3. Compile the Project
